@@ -1,0 +1,53 @@
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: #434343;
+  background: #DAE3E7;
+  font-size: 16px;
+}
+
+h1,
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #778492;
+}
+
+a {
+  color: #3AAA64;
+}
+
+img {
+	width: 300px;
+	height: auto;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+header,
+section div {
+	background: #f5f5f5;
+}	
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+section div {
+	margin: 20px;
+	padding: 20px;
+	border-top: 10px solid #778492;
+	width: 300px;
+	height: 300px;
+}
+
+footer {
+	background: #32383e;
+	color: #fff;
+	padding: 10px 20px;
+	text-align: right;
+}
